@@ -1,0 +1,58 @@
+body{
+   margin: 0;
+    background-color: black;
+    color: aliceblue;
+    
+}
+form{
+    background-color: #696969;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2em;
+    padding-top: 0.5em;
+    border-radius: 2%;
+    
+
+   
+
+}
+h2{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+
+
+}
+
+input{
+    margin-top: 0.5em;
+    width: 5em;
+    height: 2em;
+    text-align: center;
+    border-radius: 1%;
+}
+
+
+.botao_resultado{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin-top: 2em;
+    
+
+   
+}
+label{
+    margin-left: 0.5em;
+}
+button{
+    border-radius: 3%;
+}
+
+

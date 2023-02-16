@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <form id="form" action="">
+        <h2> Calculadora</h2>
+        <label for="numero01">Digite dois valore:</label>
+        <div class="container">
+            <div class="container-itens">
+                <input type="text" name="valor1" value="" placeholder="0" required><br>
+                <input type="text" name="valor2" value="" placeholder="0" required>
+
+            </div>
+            <div class="container-itens2">
+                <select class="operacoes">
+                    <option value="aperacao">-- Escolha uma operação --</option>
+                    <option value="Soma">Soma</option>
+                    <option value="Subtracao">Subtração</option>
+                    <option value="Multiplicacao">Multiplicação</option>
+                    <option value="Divisao">Divisão</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="botao_resultado">
+            <div>
+                <span>O resultado é: </span><input id="resultado" type="text" placeholder="0" >
+            </div>
+            
+            <div class="butoes">
+                <button class="butao">calcular IF</button>
+                <button class="butao2">calcular switch</button>
+                <button class="butao3">limpar</button>
+            </div>
+        </div>
+        
+    </form>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>
